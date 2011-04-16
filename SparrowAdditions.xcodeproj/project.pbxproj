@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E6561181359A443005161FE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6561171359A443005161FE /* Cocoa.framework */; };
+		8E6561221359A443005161FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E6561201359A443005161FE /* InfoPlist.strings */; };
+		8E65612C1359A4A1005161FE /* TKSparrowPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E65612B1359A4A1005161FE /* TKSparrowPlugin.m */; };
+		8E6561321359A8AC005161FE /* TKPluginHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6561311359A8AC005161FE /* TKPluginHelpers.m */; };
+		8E6561351359AC3A005161FE /* MMMainWindowController+(TKSparrow).m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6561341359AC3A005161FE /* MMMainWindowController+(TKSparrow).m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E65612F1359A6FE005161FE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8E6561141359A443005161FE /* SparrowAdditions.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparrowAdditions.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6561171359A443005161FE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8E65611A1359A443005161FE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8E65611B1359A443005161FE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8E65611C1359A443005161FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E65611F1359A443005161FE /* SparrowAdditions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SparrowAdditions-Info.plist"; sourceTree = "<group>"; };
+		8E6561211359A443005161FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E6561231359A443005161FE /* SparrowAdditions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SparrowAdditions-Prefix.pch"; sourceTree = "<group>"; };
+		8E65612A1359A4A1005161FE /* TKSparrowPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKSparrowPlugin.h; sourceTree = "<group>"; };
+		8E65612B1359A4A1005161FE /* TKSparrowPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKSparrowPlugin.m; sourceTree = "<group>"; };
+		8E6561301359A8AC005161FE /* TKPluginHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKPluginHelpers.h; sourceTree = "<group>"; };
+		8E6561311359A8AC005161FE /* TKPluginHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKPluginHelpers.m; sourceTree = "<group>"; };
+		8E6561331359AC3A005161FE /* MMMainWindowController+(TKSparrow).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMMainWindowController+(TKSparrow).h"; sourceTree = "<group>"; };
+		8E6561341359AC3A005161FE /* MMMainWindowController+(TKSparrow).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MMMainWindowController+(TKSparrow).m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E6561111359A443005161FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6561181359A443005161FE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E6561091359A443005161FE = {
+			isa = PBXGroup;
+			children = (
+				8E65611D1359A443005161FE /* SparrowAdditions */,
+				8E6561161359A443005161FE /* Frameworks */,
+				8E6561151359A443005161FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E6561151359A443005161FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E6561141359A443005161FE /* SparrowAdditions.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E6561161359A443005161FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E6561171359A443005161FE /* Cocoa.framework */,
+				8E6561191359A443005161FE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E6561191359A443005161FE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E65611A1359A443005161FE /* AppKit.framework */,
+				8E65611B1359A443005161FE /* CoreData.framework */,
+				8E65611C1359A443005161FE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8E65611D1359A443005161FE /* SparrowAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				8E6561291359A44E005161FE /* Classes */,
+				8E65611E1359A443005161FE /* Supporting Files */,
+			);
+			path = SparrowAdditions;
+			sourceTree = "<group>";
+		};
+		8E65611E1359A443005161FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E65611F1359A443005161FE /* SparrowAdditions-Info.plist */,
+				8E6561201359A443005161FE /* InfoPlist.strings */,
+				8E6561231359A443005161FE /* SparrowAdditions-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E6561291359A44E005161FE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8E6561331359AC3A005161FE /* MMMainWindowController+(TKSparrow).h */,
+				8E6561341359AC3A005161FE /* MMMainWindowController+(TKSparrow).m */,
+				8E65612A1359A4A1005161FE /* TKSparrowPlugin.h */,
+				8E65612B1359A4A1005161FE /* TKSparrowPlugin.m */,
+				8E6561301359A8AC005161FE /* TKPluginHelpers.h */,
+				8E6561311359A8AC005161FE /* TKPluginHelpers.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E6561131359A443005161FE /* SparrowAdditions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E6561261359A443005161FE /* Build configuration list for PBXNativeTarget "SparrowAdditions" */;
+			buildPhases = (
+				8E6561101359A443005161FE /* Sources */,
+				8E6561111359A443005161FE /* Frameworks */,
+				8E6561121359A443005161FE /* Resources */,
+				8E65612F1359A6FE005161FE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparrowAdditions;
+			productName = SparrowAdditions;
+			productReference = 8E6561141359A443005161FE /* SparrowAdditions.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E65610B1359A443005161FE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8E65610E1359A443005161FE /* Build configuration list for PBXProject "SparrowAdditions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E6561091359A443005161FE;
+			productRefGroup = 8E6561151359A443005161FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E6561131359A443005161FE /* SparrowAdditions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E6561121359A443005161FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6561221359A443005161FE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E6561101359A443005161FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E65612C1359A4A1005161FE /* TKSparrowPlugin.m in Sources */,
+				8E6561321359A8AC005161FE /* TKPluginHelpers.m in Sources */,
+				8E6561351359AC3A005161FE /* MMMainWindowController+(TKSparrow).m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E6561201359A443005161FE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E6561211359A443005161FE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E6561241359A443005161FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8E6561251359A443005161FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8E6561271359A443005161FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SparrowAdditions/SparrowAdditions-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SparrowAdditions/SparrowAdditions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8E6561281359A443005161FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SparrowAdditions/SparrowAdditions-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "SparrowAdditions/SparrowAdditions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E65610E1359A443005161FE /* Build configuration list for PBXProject "SparrowAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6561241359A443005161FE /* Debug */,
+				8E6561251359A443005161FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E6561261359A443005161FE /* Build configuration list for PBXNativeTarget "SparrowAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6561271359A443005161FE /* Debug */,
+				8E6561281359A443005161FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E65610B1359A443005161FE /* Project object */;
+}

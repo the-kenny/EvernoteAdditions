@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'SparrowAdditions' target in the 'SparrowAdditions' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import "TKPluginHelpers.h"
+#endif
