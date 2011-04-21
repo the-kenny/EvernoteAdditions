@@ -32,7 +32,7 @@
 			<key>BundleIdentifier</key>
 			<string>com.sparrowmailapp.sparrow</string>
 			<key>MaxBundleVersion</key>
-			<string>685</string>
+			<string>688.7</string>
 			<key>MinBundleVersion</key>
 			<string>685</string>
 		</dict>
