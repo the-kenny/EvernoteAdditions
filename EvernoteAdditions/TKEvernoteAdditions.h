@@ -9,14 +9,12 @@
 #import <Foundation/Foundation.h>
 
 
-@interface TKSparrowPlugin : NSObject {
+@interface TKEvernoteAdditions : NSObject {
 @private
     
 }
 
-- (id)init;
-
 + (void)load;
-+ (TKSparrowPlugin*)sharedInstance;
++ (TKEvernoteAdditions*)sharedInstance;
 
 @end

@@ -25,16 +25,16 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2011 __MyCompanyName__. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
-	<string>TKSparrowPlugin</string>
+	<string>TKEvernoteAdditions</string>
 	<key>SIMBLTargetApplications</key>
 	<array>
 		<dict>
 			<key>BundleIdentifier</key>
-			<string>com.sparrowmailapp.sparrow</string>
+			<string>com.evernote.Evernote</string>
 			<key>MaxBundleVersion</key>
-			<string>688.7</string>
+			<string>147280</string>
 			<key>MinBundleVersion</key>
-			<string>685</string>
+			<string>147280</string>
 		</dict>
 	</array>
 </dict>
