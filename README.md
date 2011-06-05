@@ -1,5 +1,16 @@
-# Sparrow Additions #
+# EvernoteAdditions #
 
-SIMBL plugin for Sparrow. Currently does the following:
+SIMBL plugin for Evernote.app. Currently does the following:
 
-- Prevent "Message Panel" from opening
+- Hide ads
+
+Dependencies: 
+
+- [SIMBL](http://www.culater.net/software/SIMBL/SIMBL.php) must be installed
+
+Installation: 
+
+    xcodebuild -configuration Release
+    cp -r build/Release/EvernoteAdditions.bundle ~/Library/Application\ Support/SIMBL/Plugins
+
+I accept Bitcoin donations at 1MeWBGK57MWKGk3Afptxvub1S9E1BQTex4
