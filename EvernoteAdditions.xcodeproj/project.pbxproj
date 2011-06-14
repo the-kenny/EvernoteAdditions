@@ -32,9 +32,9 @@
 		8E65611A1359A443005161FE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		8E65611B1359A443005161FE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8E65611C1359A443005161FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8E65611F1359A443005161FE /* EvernoteAdditions-Info.plist */ = {isa = PBXFileReference; path = "EvernoteAdditions-Info.plist"; sourceTree = "<group>"; };
+		8E65611F1359A443005161FE /* EvernoteAdditions-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EvernoteAdditions-Info.plist"; sourceTree = "<group>"; };
 		8E6561211359A443005161FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8E6561231359A443005161FE /* EvernoteAdditions-Prefix.pch */ = {isa = PBXFileReference; path = "EvernoteAdditions-Prefix.pch"; sourceTree = "<group>"; };
+		8E6561231359A443005161FE /* EvernoteAdditions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EvernoteAdditions-Prefix.pch"; sourceTree = "<group>"; };
 		8E65612A1359A4A1005161FE /* TKEvernoteAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKEvernoteAdditions.h; sourceTree = "<group>"; };
 		8E65612B1359A4A1005161FE /* TKEvernoteAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKEvernoteAdditions.m; sourceTree = "<group>"; };
 		8E6561301359A8AC005161FE /* TKPluginHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKPluginHelpers.h; sourceTree = "<group>"; };
@@ -216,7 +216,6 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
